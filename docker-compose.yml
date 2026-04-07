@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: tif
+      POSTGRES_PASSWORD: tif
+      POSTGRES_DB: traffic_intel
+    # Host 5433 avoids conflict when another Postgres already uses 5432
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

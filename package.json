@@ -1,0 +1,41 @@
+{
+  "name": "traffic-intelligence-framework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:studio": "prisma studio",
+    "setup:env": "node scripts/write-env.js",
+    "jobs:sessions": "tsx scripts/jobs/close-sessions.ts",
+    "jobs:scores": "tsx scripts/jobs/compute-scores.ts",
+    "jobs:recommendations": "tsx scripts/jobs/compute-recommendations.ts",
+    "jobs:alerts": "tsx scripts/jobs/run-alerts.ts",
+    "jobs:all": "npm run jobs:sessions && npm run jobs:scores && npm run jobs:recommendations && npm run jobs:alerts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "prisma": "^6.5.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
