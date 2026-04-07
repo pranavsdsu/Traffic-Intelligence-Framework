@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Traffic Intelligence dashboard preview">
+  <rect width="1600" height="900" fill="#0f1419"/>
+  <text x="60" y="70" fill="#e7ecf3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Traffic Intelligence Dashboard</text>
+  <text x="60" y="104" fill="#8b9bb4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Stakeholder-friendly view: vendor performance, recommendations, and alerts</text>
+
+  <rect x="50" y="140" rx="12" ry="12" width="1500" height="115" fill="#1a2332" stroke="#2a3545"/>
+  <text x="80" y="178" fill="#e7ecf3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="600">Key Insights</text>
+  <text x="80" y="212" fill="#c9d3e6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">• Top performing vendor: Beta Auto Network (high engagement, efficient cost)</text>
+  <text x="80" y="240" fill="#c9d3e6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">• Lowest on ranking: Alpha Motors Traffic (weaker score vs peers)</text>
+
+  <g transform="translate(50,280)">
+    <rect x="0" y="0" width="232" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Total Spend</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">$12,480</text>
+  </g>
+  <g transform="translate(296,280)">
+    <rect x="0" y="0" width="232" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Average Vendor Score</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">67.4</text>
+  </g>
+  <g transform="translate(542,280)">
+    <rect x="0" y="0" width="232" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Engaged Visits</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">2,314</text>
+  </g>
+  <g transform="translate(788,280)">
+    <rect x="0" y="0" width="232" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Total Visits</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">6,742</text>
+  </g>
+  <g transform="translate(1034,280)">
+    <rect x="0" y="0" width="232" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Avg Cost per Engaged User</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">$5.39</text>
+  </g>
+  <g transform="translate(1280,280)">
+    <rect x="0" y="0" width="270" height="110" rx="10" fill="#1a2332" stroke="#2a3545"/>
+    <text x="16" y="28" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Open Alerts</text>
+    <text x="16" y="68" fill="#e7ecf3" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">3</text>
+  </g>
+
+  <rect x="50" y="420" rx="12" ry="12" width="1030" height="430" fill="#1a2332" stroke="#2a3545"/>
+  <text x="80" y="456" fill="#e7ecf3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="600">Vendor Leaderboard</text>
+  <rect x="70" y="474" width="990" height="46" fill="#141b26"/>
+  <text x="84" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Status</text>
+  <text x="184" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Vendor</text>
+  <text x="430" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Vendor Score</text>
+  <text x="560" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Engagement Rate</text>
+  <text x="725" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Cost/Engaged User</text>
+  <text x="905" y="502" fill="#8b9bb4" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Performance Summary</text>
+
+  <rect x="70" y="522" width="990" height="62" fill="rgba(62,207,142,0.08)"/>
+  <text x="84" y="560" fill="#3ecf8e" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">✅ Top performer</text>
+  <text x="252" y="560" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">Beta Auto Network</text>
+  <text x="430" y="560" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">81.2</text>
+  <text x="560" y="560" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">34.5%</text>
+  <text x="730" y="560" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">$4.72</text>
+  <text x="905" y="560" fill="#c9d3e6" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">High engagement and efficient cost vs peers.</text>
+
+  <rect x="70" y="586" width="990" height="62" fill="rgba(240,193,75,0.08)"/>
+  <text x="84" y="624" fill="#f0c14b" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">⚠️ Review</text>
+  <text x="252" y="624" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">Gamma Clicks</text>
+  <text x="430" y="624" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">58.1</text>
+  <text x="560" y="624" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">22.3%</text>
+  <text x="730" y="624" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">$6.21</text>
+  <text x="905" y="624" fill="#c9d3e6" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Average performance; monitor before scaling.</text>
+
+  <rect x="70" y="650" width="990" height="62" fill="rgba(242,92,84,0.08)"/>
+  <text x="84" y="688" fill="#f25c54" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">❌ Needs attention</text>
+  <text x="252" y="688" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">Alpha Motors Traffic</text>
+  <text x="430" y="688" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">44.7</text>
+  <text x="560" y="688" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">16.9%</text>
+  <text x="730" y="688" fill="#e7ecf3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">$8.44</text>
+  <text x="905" y="688" fill="#c9d3e6" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Lower engagement and higher cost than peers.</text>
+
+  <rect x="1100" y="420" rx="12" ry="12" width="450" height="200" fill="#1a2332" stroke="#2a3545"/>
+  <text x="1130" y="456" fill="#e7ecf3" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Budget Suggestions</text>
+  <text x="1130" y="488" fill="#c9d3e6" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">• Beta Auto Network: Consider increasing budget.</text>
+  <text x="1130" y="514" fill="#c9d3e6" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">• Gamma Clicks: Keep current budget for now.</text>
+  <text x="1130" y="540" fill="#c9d3e6" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">• Alpha Motors: Monitor closely or reduce spend.</text>
+
+  <rect x="1100" y="650" rx="12" ry="12" width="450" height="200" fill="#1a2332" stroke="#2a3545"/>
+  <text x="1130" y="686" fill="#e7ecf3" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Alerts</text>
+  <text x="1130" y="718" fill="#f0c14b" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">⚠️ Elevated traffic risk detected in 1 vendor</text>
+  <text x="1130" y="744" fill="#f25c54" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">❌ One vendor in lowest peer ranking segment</text>
+</svg>

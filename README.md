@@ -2,6 +2,11 @@
 
 Internal stack for **proxy-based vendor quality**, **experiments**, **fraud risk (ANO)**, and a **buyer dashboard**—aligned to: no client landing-page control, no conversion labels, drifting traffic.
 
+
+## Dashboard preview
+
+![Dashboard preview](docs/dashboard-preview.svg)
+
 ## Stack
 
 - **Next.js 15** (App Router) — UI + API routes  
